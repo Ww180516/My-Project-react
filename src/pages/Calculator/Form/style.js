@@ -1,0 +1,70 @@
+import { StyleSheet } from 'react-native'
+
+const styles = StyleSheet.create({
+    formContext:{
+        flex:1,
+        marginTop:12,
+        backgroundColor:"white",
+        borderTopLeftRadius:20,
+        borderTopRightRadius:30,
+        alignItems:"center",
+        paddingTop:30,
+    },
+    from: {
+        width:"100%",
+    },
+    formLabel:{
+        color:"#000000",
+        fontSize:18,
+        paddingLeft:20,
+    },
+    imput:{
+        width:"90%",
+        borderRadius:50,
+        backgroundColor:"lightgray",
+        height:40,
+        margin:12,
+        paddingLeft:10,
+    },
+    buttonCalculator:{
+        borderRadius:50,
+        alignItems:"center",
+        justifyContent:"center",
+        width:"90%",
+        backgroundColor:"orange",
+        paddingTop:14,
+        paddingBottom:14,
+        marginLeft:12,
+        margin:30,
+    },
+    textButtonCalculator:{
+        fontSize:20,
+        color:"white",
+    },
+    errorMessage:{
+        fontSize:12,
+        color:"darkorange",
+        fontWeight:"bold",
+        paddingLeft:20,
+    },
+    exhibitionResult:{
+        width:"100%",
+        height:"50%",
+    },
+    listImc:{
+        marginTop:20,
+    },
+    resultImcItem:{
+        fontSize:18,
+        color:"darkorange",
+        height:30,
+        width:"100%",
+        paddingRight:20,
+    },
+    textResultItemList:{
+        fontSize:16,
+        color:"darkorange",
+    }
+});
+
+export default styles

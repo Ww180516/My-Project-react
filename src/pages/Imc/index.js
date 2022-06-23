@@ -9,11 +9,6 @@ export default function Imc ({ navigation }) {
       title="Time"
       onPress={ () => navigation.navigate ('Time')}
       />
-
-      <Button
-      title="Mudar Titulo"
-      onPress={ () => navigation.setOptions({ title: 'INICIO'})}
-      />
     </View>
   );
 }
